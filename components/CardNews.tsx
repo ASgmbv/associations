@@ -93,9 +93,10 @@ export default function WithSpeechBubbles() {
       <Container maxW={'9xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>Наши новости</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Text>Что же у нас нового?</Text>
         </Stack>
         <Stack
+        cursor = 'pointer'
           direction={{ base: 'column', md: 'row' }}
           spacing={{ base: 40, md: 8, lg: 20 }}>
           <Testimonial>

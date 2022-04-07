@@ -51,35 +51,31 @@ export default function LargeWithLogoLeft() {
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
             <Text fontSize={'sm'}>
-              © 2020 Chakra Templates. All rights reserved
+              ©All rights reserved
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Product</ListHeader>
-            <Link href={'#'}>Overview</Link>
-            <Link href={'#'}>Features</Link>
-            <Link href={'#'}>Tutorials</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Releases</Link>
+            <ListHeader>Контакты</ListHeader>
+            <Link href={'#'}>+996942342</Link>
+            <Link href={'#'}>+996432422</Link>
+    <div></div>
+            <Link href={'#'}>+94234234</Link>
+            <Link href={'#'}>+43242344</Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About</Link>
-            <Link href={'#'}>Press</Link>
-            <Link href={'#'}>Careers</Link>
-            <Link href={'#'}>Contact</Link>
-            <Link href={'#'}>Partners</Link>
+            <ListHeader>О компании</ListHeader>
+            <Link href={'#'}>О нас</Link>
+            <Link href={'#'}>Что такое ассоциация?</Link>
+            <Link href={'#'}></Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Support</ListHeader>
-            <Link href={'#'}>Help Center</Link>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Legal</Link>
-            <Link href={'#'}>Privacy Policy</Link>
-            <Link href={'#'}>Status</Link>
+            <ListHeader>Поддержка</ListHeader>
+            <Link href={'#'}>Позвонить нам</Link>
+            <Link href={'#'}>Сообщить об ошибке</Link>
+            <Link href={'#'}>Узнать больше</Link>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Follow Us</ListHeader>
+            <ListHeader>Наши соц сети</ListHeader>
             <Link href={'#'}>Facebook</Link>
             <Link href={'#'}>Twitter</Link>
             <Link href={'#'}>Dribbble</Link>

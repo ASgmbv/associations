@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
       <Stats />
       <News />
-      {/* <Documents /> */}
+      <Documents />
 
       <Contacts />
       <Footer />

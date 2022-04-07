@@ -51,14 +51,14 @@ export default function JoinOurTeam() {
           <Heading
             lineHeight={1.1}
             fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
-            Senior web designers{' '}
+                  Присоединяйся к нам в ассоциацию!
             <Text
               as={'span'}
-              bgGradient="linear(to-r, red.400,pink.400)"
+              bgColor="blue.400"
               bgClip="text">
               &
             </Text>{' '}
-            Full-Stack Developers
+              Заполни форму
           </Heading>
           <Stack direction={'row'} spacing={4} align={'center'}>
             <AvatarGroup>
@@ -76,7 +76,6 @@ export default function JoinOurTeam() {
                     height: 'full',
                     rounded: 'full',
                     transform: 'scale(1.125)',
-                    bgGradient: 'linear(to-bl, red.400,pink.400)',
                     position: 'absolute',
                     zIndex: -1,
                     top: 0,
@@ -105,7 +104,7 @@ export default function JoinOurTeam() {
                 height: 'full',
                 rounded: 'full',
                 transform: 'scale(1.125)',
-                bgGradient: 'linear(to-bl, orange.400,yellow.400)',
+
                 position: 'absolute',
                 zIndex: -1,
                 top: 0,
@@ -126,7 +125,7 @@ export default function JoinOurTeam() {
               color={'gray.800'}
               lineHeight={1.1}
               fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}>
-              Join our team
+                    Присоединяйся к нам в команду!
               <Text
                 as={'span'}
                 bgGradient="linear(to-r, red.400,pink.400)"
